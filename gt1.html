@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ppt</title>
+    <link rel="stylesheet" type="text/css" href="gsr.css" />
+<style>
+    header {
+    background-color: #333;
+    padding: 30px;
+    color: #fffffff8;
+    font-size: xx-large;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+
+  .nav{
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    padding: 20px;
+    list-style-type: none;
+    padding: 0; /* Remove padding */
+    margin: 0;
+  }
+  
+  .nav a{
+    color:#f8f8f8;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: x-large;
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0;
+  }
+  
+  .nav a:hover{
+    color:rgb(240, 3, 86);
+    
+    
+  }
+    .items{
+    text-align: center;
+    display:grid ;
+    grid-template-columns:repeat(4,1fr);
+    padding: 30px 50px;
+    grid-column-gap: 25px;
+    color:rgb(3, 3, 3);
+   
+    
+    
+}
+
+.item img{
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+    cursor:pointer; 
+    border-radius: 30px;
+    padding:20px;
+
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+.item h4{
+    padding:5px ;
+    text-align: center;
+}
+
+.but{
+    padding:5px 30px;
+    border:none;
+    outline: none;
+    background-color:black;
+    cursor:pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    transition: 0.2s all;
+    color: white;
+    
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:50px 50px;
+            flex-wrap: wrap;
+        }
+        .buttons a{
+            text-decoration: none;
+            color: white;
+           
+        }
+        .but:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(191, 72, 72);
+    
+    border:1px solid black;
+}
+.buttons a:hover{
+    color: rgb(187, 87, 102);
+   
+}
+@media screen and (max-width:1000px){
+  .items{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+  @media screen and (max-width:780px){
+    .items{
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .but {
+        margin-right: 0; /* Remove right margin for vertical alignment */
+        margin-bottom: 10px; /* Add spacing between buttons vertically */
+    }
+}
+</style>
+    <body>
+        <header>
+            <h1>Ganesh Gifts & Novelties </h1>
+              <ul class="nav">
+                <li><a href="gsr.html">Home</a></li>
+                <li><a href="gt.html">Products</a></li>
+                <li><a href="gsr2.html">About</a></li>
+                <li><a href="gsr3.html">Contact</a></li>
+              </ul>
+            </header>
+            <div class="buttons">
+    <button class="but"><a href="gt.html">Clocks</a></button>&nbsp;&nbsp;
+    <button class="but"><a href="gt1.html">Photoframes</a></button>&nbsp;&nbsp;
+    <button class="but"><a href="gt2.html">Clocks with Photoframes</a></button>&nbsp;&nbsp;
+    <button class="but"><a href="gt3.html">Teddy Bears</a></button>&nbsp;&nbsp;
+    <button class="but"><a href="gt4.html">Paper Bags</a></button>&nbsp;&nbsp;
+    <button class="but"><a href="gt5.html">Idols</a></button>&nbsp;&nbsp;
+    <button class="but"><a href="gt6.html">Bicycles for kids</a></button>&nbsp;&nbsp;
+    <button class="but"><a href="gt9.html">Frames</a></button>&nbsp;&nbsp;
+    <button class="but"><a href="gt7.html">Cups</a></button>&nbsp;&nbsp;
+    
+    </div>  
+    <div class="marquee">
+        <nav>
+            <marquee direction="left" width="100%" style="font-size: 50px;" scrollamount="10s">"Capture Life, Frame Happiness"</marquee>
+        </nav>
+    </div>
+            <br><br>
+            
+    <h1><p><b><center style="font-size:50px; font-family:Verdana, Geneva, Tahoma, sans-serif;">PHOTOFRAMES</center></b></p></h1>
+    <section class="items" id="photoframes" style="background: url(photowall.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover;">
+        <div class="item">
+            <a href="pf-18.jpg"> <img src="pf-18.jpg"></a>
+            <h2>Gsr-p-B1</h2>
+           
+        </div>
+        <div class="item">
+            <a href="pf-1.jpg"> <img src="pf-1.jpg"></a>
+            <h2>Gsr-p-B2</h2>
+            </div>
+
+        <div class="item">
+            <a href="pf-2.jpg"> <img src="pf-2.jpg"></a>
+            <h2>Gsr-p-B3</h2>
+            </div>
+
+        <div class="item">
+            <a href="pf-3.jpg"> <img src="pf-3.jpg"></a>
+          <h2>Gsr-p-B4</h2>
+          </div>
+
+        <div class="item">
+            <a href="pf-4.jpg"> <img src="pf-4.jpg"></a>
+          <h2>Gsr-p-B5</h2>
+          </div>
+
+          <div class="item">
+            <a href="pf-5.jpg">   <img src="pf-5.jpg"></a>
+          <h2>Gsr-p-B6</h2>
+          </div>
+
+          <div class="item">
+            <a href="pf-6.jpg"> <img src="pf-6.jpg"></a>
+          <h2>Gsr-p-B7</h2>
+          </div>
+
+          <div class="item">
+            <a href="pf-7.jpg"> <img src="pf-7.jpg"></a>
+          <h2>Gsr-p-B8</h2>
+          </div>
+
+          <div class="item">
+            <a href="pf-8.jpg"> <img src="pf-8.jpg"></a>
+          <h2>Gsr-p-B9</h2>
+          </div>
+
+          <div class="item">
+            <a href="pf-9.jpg">  <img src="pf-9.jpg"></a>
+          <h2>Gsr-p-B10</h2>
+          </div>
+
+          <div class="item">
+            <a href="pf-10.jpg">  <img src="pf-10.jpg"></a>
+          <h2>Gsr-p-B11</h2>
+          </div>
+
+          <div class="item">
+            <a href="pf-11.jpg"> <img src="pf-11.jpg"></a>
+          <h2>Gsr-p-B12</h2>
+          </div>
+
+          <div class="item">
+            <a href="pf-12.jpg"> <img src="pf-12.jpg"></a>
+          <h2>Gsr-p-B13</h2>
+          </div>
+
+          <div class="item">
+            <a href="pf-13.jpg">  <img src="pf-13.jpg"></a>
+          <h2>Gsr-p-B14</h2>
+          </div>
+
+    
+        <div class="item">
+            <a href="pf-14.jpg">  <img src="pf-14.jpg"></a>
+            <h2>Gsr-cpf-B15</h2>
+        </div>
+        <div class="item">
+            <a href="pf-15.jpg"><img src="pf-15.jpg"></a>
+            <h2>Gsr-cpf-B16</h2>
+        </div>
+        <div class="item">
+            <a href="pf-16.jpg"> <img src="pf-16.jpg"></a>
+            <h2>Gsr-cpf-B17</h2>
+        </div>
+        <div class="item">
+            <a href="pf-17.jpg"> <img src="pf-17.jpg"></a>
+            <h2>Gsr-cpf-B18</h2>
+        </div>
+        
+    </section>
+    <footer>
+      <p>&copy; 2023 Gift Shop. All rights reserved.</p>
+    </footer></body>
